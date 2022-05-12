@@ -17,57 +17,36 @@
     <div class="container">
         <h1>Mem slider</h1>
         <div class="slider">
-            <div class="slides">
-                <!-- <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <input type="radio" name="radio-btn" id="radio5"> -->
-                
-            <div class="slide first">
-                <img src="./assets/1.jpg" alt="картинка">
+            <div class="flex-wrapper">
+                <div class="slider-wrapper">
+                  <div class="slide slide_active">
+                    <img src="./assets/1.jpg" alt="Картинка">
+                  </div>
+                  <div class="slide">
+                    <img src="./assets/2.jpg" alt="Картинка">
+                  </div>
+                  <div class="slide">
+                    <img src="./assets/3.jpg" alt="Картинка">
+                  </div>
+                  <div class="slide">
+                    <img src="./assets/4.jpg" alt="Картинка">
+                  </div>
+                  <div class="slide">
+                    <img src="./assets/5.jpg" alt="Картинка">
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="slide">
-                <img src="./assets/2.jpg" alt="картинка">
-            </div>
-            <div class="slide">
-                <img src="./assets/3.jpg" alt="картинка">
-            </div>
-            <div class="slide">
-                <img src="./assets/4.jpg" alt="картинка">
-            </div>
-            <div class="slide">
-                <img src="./assets/5.jpg" alt="картинка">
-            </div>
-
-            <!-- <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-                <div class="auto-btn5"></div>     
-            </div> -->
-            </div>
-
-            <div class="dots-wrapper">
-               <div class="dot"></div>
-               <div class="dot"></div>
-               <div class="dot"></div>
-               <div class="dot"></div>
-               <div class="dot"></div>
-            </div>
-
-            <!-- <div class="navigation-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-                <label for="radio5" class="manual-btn"></label>
-
-            </div> -->
-
-        </div>
+    <div class="navigation">
         <p class="description">I'm too old for memes</p>
+              <div class="dots-wrapper">
+
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
     </div>
     <script src="./script.js"></script>
 </body>
