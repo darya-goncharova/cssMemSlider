@@ -14,40 +14,54 @@
       rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="wrapper">
         <h1>Mem slider</h1>
-        <div class="slider">
-            <div class="flex-wrapper">
-                <div class="slider-wrapper">
-                  <div class="slide slide_active">
-                    <img src="./assets/1.jpg" alt="Картинка">
-                  </div>
-                  <div class="slide">
-                    <img src="./assets/2.jpg" alt="Картинка">
-                  </div>
-                  <div class="slide">
-                    <img src="./assets/3.jpg" alt="Картинка">
-                  </div>
-                  <div class="slide">
-                    <img src="./assets/4.jpg" alt="Картинка">
-                  </div>
-                  <div class="slide">
-                    <img src="./assets/5.jpg" alt="Картинка">
-                  </div>
-                </div>
+        <div class="container">
+            <input type="radio" class="input" id="input1" name="input" checked />
+            <input type="radio" class="input" id="input2" name="input" />
+            <input type="radio" class="input" id="input3" name="input" />
+            <input type="radio" class="input" id="input4" name="input" />
+            <div class="slider__wrapper">
+              <div class="slider">
+                <div class="slide s1"><img src="./assets/1.jpg" alt="Картинка">
+                <div class="slide s2"><img src="./assets/2.jpg" alt="Картинка">
+                <div class="slide s3"><img src="./assets/3.jpg" alt="Картинка">
+                <div class="slide s4"><img src="./assets/4.jpg" alt="Картинка">
+                <div class="slide s5"><img src="./assets/5.jpg" alt="Картинка">
               </div>
             </div>
-    <div class="navigation">
-        <p class="description">I'm too old for memes</p>
-              <div class="dots-wrapper">
-
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+            <div class="description">
+              <div class="description_wrapper">
+                <div class="descr__item descr__item1">I'm too old for memes</div>
+                <div class="descr__item descr__item2">Hello</div>
+                <div class="descr__item descr__item3">Hi</div>
+                <div class="descr__item descr__item4">Lorem ipsum Suscipit</div>
+                <div class="descr__item descr__item5">Cat Rose</div>
               </div>
+            </div>
+            <div class="navigation">
+              <label for="input1" class="dot">
+                <div class="dot dot1" id="circle1"></div>
+              </label>
+              <label for="input2" class="dot">
+                <div class="dot dot2"></div>
+              </label>
+              <label for="input3" class="dot">
+                <div class="dot dot3"></div>
+              </label>
+              <label for="input4" class="dot">
+                <div class="dot dot4"></div>
+              </label>
+              <label for="input5" class="dot">
+                <div class="dot dot5"></div>
+              </label>
+            </div>
+          </div>
+        </body>
+      </html>
+
+  
     </div>
-    <script src="./script.js"></script>
+
 </body>
 </html>
